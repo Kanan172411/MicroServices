@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
 PrepDb.PrepPopulation(app);
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
 app.MapControllers();
 
