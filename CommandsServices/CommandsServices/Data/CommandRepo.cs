@@ -30,7 +30,7 @@ namespace CommandsServices.Data
             _context.Platforms.Add(platform);
         }
 
-        public IEnumerable<Command> GetAllCommandsForPlatform(int platformId)
+        public IEnumerable<Command> GetCommandsForPlatform(int platformId)
         {
             return (_context.Commands
                 .Where(x => x.PlatformId == platformId)
