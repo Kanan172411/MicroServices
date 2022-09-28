@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PlatformService.AsyncDataService;
 using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
 
@@ -25,11 +26,12 @@ else
 
 builder.Services.AddScoped<IPlatformRepo, PlatformRepo> ();
 
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
 
-
+builder.Services.AddSingleton<IMessageBusClient, MessageBusClient>();
 
 Console.WriteLine($"--> CommandService endpoint {builder.Configuration["CommandService"]}");
 
@@ -44,7 +46,7 @@ if (app.Environment.IsDevelopment())
 PrepDb.PrepPopulation(app, builder.Environment.IsProduction());
 //app.UseHttpsRedirection();
 
-//app.UseAuthorization();
+app.UseAuthorization();
 
 app.MapControllers();
 

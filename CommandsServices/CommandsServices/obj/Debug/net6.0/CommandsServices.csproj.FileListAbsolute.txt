@@ -62,3 +62,5 @@ C:\Users\k.garayev\Desktop\MicroServices\CommandsServices\CommandsServices\bin\D
 C:\Users\k.garayev\Desktop\MicroServices\CommandsServices\CommandsServices\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\k.garayev\Desktop\MicroServices\CommandsServices\CommandsServices\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\k.garayev\Desktop\MicroServices\CommandsServices\CommandsServices\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\k.garayev\Desktop\MicroServices\CommandsServices\CommandsServices\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\k.garayev\Desktop\MicroServices\CommandsServices\CommandsServices\bin\Debug\net6.0\RabbitMQ.Client.dll
