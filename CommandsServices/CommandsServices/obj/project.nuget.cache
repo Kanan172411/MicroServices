@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "alurw3/L6FrbO+6Nu0g6Ts6whCmLla9W6nCV1X0qxiHW4xmYmhC1R3F6FhqaOyG+3nsbq6mO8kGH84DX1v40mg==",
+  "dgSpecHash": "2C8X8mYTewOjjZTuO31F9eyG5IYwp+q0PX5lZvWXKrbff62VWTy8VTunJ2PnCbPGTt2M0RXskegz15E++2j3Lg==",
   "success": true,
   "projectFilePath": "C:\\Users\\k.garayev\\Desktop\\MicroServices\\CommandsServices\\CommandsServices\\CommandsServices.csproj",
   "expectedPackageFiles": [
@@ -57,7 +57,7 @@
     "C:\\Users\\k.garayev\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\k.garayev\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\k.garayev\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\k.garayev\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\k.garayev\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "C:\\Users\\k.garayev\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\k.garayev\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
